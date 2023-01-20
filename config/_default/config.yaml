@@ -4,7 +4,7 @@
 # This file is formatted using YAML syntax - learn more at https://learnxinyminutes.com/docs/yaml/
 
 title: John Hebron # Website name
-baseURL: 'https://johnhebron.netlify.app/' # Website URL
+baseURL: 'https://johnhebron.com/' # Website URL
 
 ############################
 ## LANGUAGE
