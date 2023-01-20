@@ -13,11 +13,11 @@ main:
   - name: DEI/Volunteering
     url: '#dei'
     weight: 30
-  # - name: Talks
-  #   url: '#talks'
-  #   weight: 40
   - name: Articles
     url: '#articles'
+    weight: 40
+  - name: eCommerce
+    url: '#ecommerce'
     weight: 50
   - name: Contact
     url: '#contact'

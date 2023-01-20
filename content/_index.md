@@ -229,7 +229,7 @@ sections:
       columns: '2'
       view: card
   - block: portfolio
-    id: projects
+    id: ecommerce
     content:
       title: eCommerce Businesses
       filters:
