@@ -43,7 +43,7 @@ sections:
         - title: Software Engineer II
           company: BigCommerce
           company_url: ''
-          # company_logo: "bigcommerce-logo.png"
+          company_logo: bigcommerce
           location: Austin, Tx / Remote
           date_start: '2020-03-01'
           date_end: '2022-12-31'
@@ -58,7 +58,7 @@ sections:
         - title: Software Engineer I
           company: BigCommerce
           company_url: ''
-          # company_logo: org-x
+          company_logo: bigcommerce
           location: Austin, Tx
           date_start: '2018-08-01'
           date_end: '2020-03-01'
@@ -70,7 +70,7 @@ sections:
         - title: Technical Support Manager
           company: BigCommerce
           company_url: ''
-          # company_logo: "bigcommerce-logo.png"
+          company_logo: bigcommerce
           location: Austin, Tx
           date_start: '2015-06-01'
           date_end: '2018-08-31'
@@ -80,58 +80,107 @@ sections:
         - title: Technical Outsource Trainer
           company: BigCommerce
           company_url: ''
-          # company_logo: "bigcommerce-logo.png"
+          company_logo: bigcommerce
           location: Austin, Tx
           date_start: '2014-08-01'
           date_end: '2015-06-30'
         - title: Technical Support Agent (Phone/Web and Escalations)
           company: BigCommerce
           company_url: ''
-          # company_logo: "bigcommerce-logo.png"
+          company_logo: bigcommerce
           location: Austin, Tx
           date_start: '2013-02-01'
           date_end: '2014-08-31'
     design:
       columns: '2'
-  # - block: accomplishments
-  #   content:
-  #     # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-  #     title: 'Accomplish&shy;ments'
-  #     subtitle:
-  #     # Date format: https://wowchemy.com/docs/customization/#date-format
-  #     date_format: Jan 2006
-  #     # Accomplishments.
-  #     #   Add/remove as many `item` blocks below as you like.
-  #     #   `title`, `organization`, and `date_start` are the required parameters.
-  #     #   Leave other parameters empty if not required.
-  #     #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
-  #     items:
-  #       - certificate_url: https://www.coursera.org
-  #         date_end: ''
-  #         date_start: '2021-01-25'
-  #         description: ''
-  #         organization: Coursera
-  #         organization_url: https://www.coursera.org
-  #         title: Neural Networks and Deep Learning
-  #         url: ''
-  #       - certificate_url: https://www.edx.org
-  #         date_end: ''
-  #         date_start: '2021-01-01'
-  #         description: Formulated informed blockchain models, hypotheses, and use cases.
-  #         organization: edX
-  #         organization_url: https://www.edx.org
-  #         title: Blockchain Fundamentals
-  #         url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-  #       - certificate_url: https://www.datacamp.com
-  #         date_end: '2020-12-21'
-  #         date_start: '2020-07-01'
-  #         description: ''
-  #         organization: DataCamp
-  #         organization_url: https://www.datacamp.com
-  #         title: 'Object-Oriented Programming in R'
-  #         url: ''
-  #   design:
-  #     columns: '2'
+  - block: accomplishments
+    content:
+      # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
+      title: 'DEI & Volunteer Work'
+      subtitle:
+      # Date format: https://wowchemy.com/docs/customization/#date-format
+      date_format: Jan 2006
+      # Accomplishments.
+      #   Add/remove as many `item` blocks below as you like.
+      #   `title`, `organization`, and `date_start` are the required parameters.
+      #   Leave other parameters empty if not required.
+      #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
+      items:
+        - date_end: '2021-12-31'
+          date_start: '2018-07-01'
+          description: "BProud, BigCommerce's LGBTQ+ and Allies employee resource group, represents the aspirations and spirit of many more LGBTQ+ BigCommerce employees than I could possibly count. 
+          <br><br>
+          Being a Co-Founder and Co-Chair of BProud started long before we wrote and signed our official formation papers in 2018. From the day I started at BigCommerce, I felt a passion to build a community amongst our LGBTQ+ employees (of whom there seemed to be very few at first). Over the years, we tried to form a group numerous times but found that it was a lot more work than we anticipated and there were a lot fewer people willing to take on extra work. 
+          <br><br>
+          It wasn't until 2018 that a fellow LGBTQ employee came to me with a design for what he thought would be an amazing t-shirt for the group we wanted to form. Turns out, it was, and we were able to secure funding from the Support and Engineering organizations to have shirts printed for anyone who wanted one. Once we opened the lid and finally put ourselves out there we were overwhelmed with the number of people interested in getting a shirt and the level of support we started to receive. 
+          <br><br>
+          After this amazing discovery, that so many people were out there who also wanted to support us, we finally had the steam to form and build our ERG! Over the years, BProud has provided social, educational, and inspirational events, talks, and more to BigCommerce employees about LGBTQ+ topics."
+          organization: BProud @ BigCommerce
+          organization_url: https://careers.bigcommerce.com/inside-bigcommerce/diversity-equity-inclusion/
+          title: LGBTQ+ ERG Founder and Lead
+          url: ''
+        - certificate_url: 
+          date_end: '2022-08-01'
+          date_start: '2022-03-01'
+          description: "BigCommerce served as a host/sponsor for 5 amazing women in the H1 2022 Techwomen and the H2 2022 Techwomen conferences.
+          <br><br>
+          As part of their week at BigCommerce learning about all things from ecommerce to being a leader in tech, I was invited to speak about BigCommerce and BigCommerce Engineering (as I was a 9 year veteran at this point) as well as my background as an entrepreneur and creator.
+          <br><br>
+          Speaking to these women is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women can do with so few resources and so little support. I am honored that my company chooses to support these women!"
+          organization: TechWomen
+          organization_url: https://www.techwomen.org/
+          title: Guest Speaker
+          url: 
+        - certificate_url: 
+          date_end: '2019-12-31'
+          date_start: '2014-10-01'
+          description: "Every holiday season from 2014 to 2019 (6 years!) I volunteered as lead of the BigCommerce Holiday Wishes Toy Drive in support of Partnerships for Children (PfC). 
+          <br><br>
+          Within BigCommerce, I would market the toy drive, facilitate communication between BigCommerce and PfC, and solicit and collect monetary donations. This would all culminate in our yearly shopping trip and toy drop off where employees would 'take over' local stores purchasing thousands of dollars of toys for donations and then would bring in those toys (along with the toys that colleagues had purchased separately) to load up our U-Haul and deliver to the *amazing* PfC warehouse! 
+          <br><br>
+          Each year we would 'sponsor' between 100-500 children with our largest year garnering over $10,000 in donations!"
+          organization: Partnerships for Children
+          organization_url: https://www.datacamp.com
+          title: 'Toy Drive Organizer and Fundraiser'
+          url: ''
+        - certificate_url: 
+          date_end: '2018-06-30'
+          date_start: '2017-06-01'
+          description: "In support of the 2017 and 2018 *Hackout*, Austin's first and only LGBTQIA+ entrepreneurship weekend, I secured corporate sponsorship from BigCommerce to support the event, encouraged participation resulting in multiple BigCommerce employee teams, and was lucky enough to participate in the weekend events as a member of my own team.
+          <br><br>
+          As an overlap between LGBTQIA+ and entrepreneurship, Hackout holds a special place in my heart. If you look closely, you can still see a number of past BigCommerce employees featured on the Hackout website and videos!"
+          organization: Startout
+          organization_url: https://swhackout.org
+          title: 'Corporate Sponsorship/Participant'
+          url: ''
+        - certificate_url: 
+          date_end: '2019-02-01'
+          date_start: '2019-02-28'
+          description: "I was invited to act as a mentor for the amazing young women from the Anne Richards school during their week long internship at BigCommerce.
+          <br><br>
+          During their time, the high schoolers worked with numerous BigCommerce employees to ideate, plan, and execute on an ecommerce business idea. The goal was to provide them with a super condensed look into the world of being an entrepreneur and working in ecommerce or tech.
+          <br><br>
+          I was lucky enough to be able to spend the week assisting the team with ecommerce/business guidance from my time running multiple online businesses, as well as design and coding advice for their project website.
+          <br><br>
+          To find out more about these amazing young women, check out this blog post: https://www.bigeng.io/opening-the-door-for-future-women-leaders/"
+          organization: Ann Richards School for Young Women Leaders
+          organization_url: https://www.annrichardsschool.org/
+          title: 'Mentor'
+          url: ''
+        - certificate_url: 
+          date_end: '2019-03-31'
+          date_start: '2015-02-01'
+          description: "In support of the annual Texas Humane Heroes (THH) Chili Cookoff fundraiser, I would promote and organize participation and sponsorship of the fundraiser from BigCommerce.
+          <br><br>
+          Each Q1 from 2015-2019 (5 years!) I would support the THH Chili Cookoff by forming multiple BigCommerce sponsored cooking teams, securing BigCommerce sponsored participant tickets for employees, and negotiating financial sponsorship opportunities to allow BigCommerce to financially support the work of THH.
+          <br><br>
+          I'm proud to say that we adopted both of our beautiful pups from the amazing THH family, as well!"
+          organization: Texas Humane Heroes
+          organization_url: https://www.annrichardsschool.org/
+          title: 'Corporate Sponsorship/Chili Cookoff Participant'
+          url: ''
+    design:
+      columns: '2'
   # - block: collection
   #   id: posts
   #   content:
