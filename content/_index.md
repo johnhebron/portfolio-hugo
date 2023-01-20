@@ -123,11 +123,11 @@ sections:
         - certificate_url: 
           date_end: '2022-08-01'
           date_start: '2022-03-01'
-          description: "BigCommerce served as a host/sponsor for 5 amazing women in the H1 2022 Techwomen and the H2 2022 Techwomen conferences.
+          description: "BigCommerce served as a host/sponsor for 5 awesome applicants in both the H1 2022 TechWomen and the H2 2022 TechWomen conferences.
           <br><br>
           As part of their week at BigCommerce learning about all things from ecommerce to being a leader in tech, I was invited to speak about BigCommerce and BigCommerce Engineering (as I was a 9 year veteran at this point) as well as my background as an entrepreneur and creator.
           <br><br>
-          Speaking to these women is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women can do with so few resources and so little support. I am honored that my company chooses to support these women!"
+          Speaking to the TechWomen teams is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women do. I am honored that my company chooses to support them!"
           organization: TechWomen
           organization_url: https://www.techwomen.org/
           title: Guest Speaker
@@ -157,13 +157,13 @@ sections:
         - certificate_url: 
           date_end: '2019-02-01'
           date_start: '2019-02-28'
-          description: "I was invited to act as a mentor for the amazing young women from the Anne Richards school during their week long internship at BigCommerce.
+          description: "I was invited to act as a mentor for the visiting students from the Anne Richards School for Future Women Leaders during their week long internship at BigCommerce.
           <br><br>
           During their time, the high schoolers worked with numerous BigCommerce employees to ideate, plan, and execute on an ecommerce business idea. The goal was to provide them with a super condensed look into the world of being an entrepreneur and working in ecommerce or tech.
           <br><br>
           I was lucky enough to be able to spend the week assisting the team with ecommerce/business guidance from my time running multiple online businesses, as well as design and coding advice for their project website.
           <br><br>
-          To find out more about these amazing young women, check out this blog post: https://www.bigeng.io/opening-the-door-for-future-women-leaders/"
+          To find out more about their visit, check out this blog post: https://www.bigeng.io/opening-the-door-for-future-women-leaders/"
           organization: Ann Richards School for Young Women Leaders
           organization_url: https://www.annrichardsschool.org/
           title: 'Mentor'
