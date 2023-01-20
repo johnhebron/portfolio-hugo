@@ -40,7 +40,7 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
-        - title: Software Engineer II
+        - title: Software Engineer II, Billing Platform Team
           company: BigCommerce
           company_url: ''
           company_logo: bigcommerce
@@ -55,7 +55,7 @@ sections:
               * Served as On Call, Deploy Manager, and Production Support on rotation and developed internal, customer-friendly docs which reduced our weekly contacts by well over half
               * Stepped up to own, document, fix, and grow the abandoned Partner APIs after a shift in company vision and priority made them a focus for company performance and success in 2021
               * Worked heavily with product provisioning, which involves over 4 core systems and numerous secondary systems and libraries, spanning Ruby, PHP, Scala, and NodeJS services
-        - title: Software Engineer I
+        - title: Software Engineer I, Billing Platform Team
           company: BigCommerce
           company_url: ''
           company_logo: bigcommerce
