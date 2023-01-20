@@ -18,7 +18,7 @@ role: Software Engineer | Culture Enthusiast | DEI Champion
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  # - name: Stanford University
+  - name: Formerly @ BigCommerce (10 years) | LSU Alum
   #   url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -31,11 +31,11 @@ interests:
   # - Information Retrieval
 
 # Education to show in About widget
-education:
-  # courses:
-  #   - course: PhD in Artificial Intelligence
-  #     institution: Stanford University
-  #     year: 2012
+# education:
+#   courses:
+#     - course: PhD in Artificial Intelligence
+      # institution: Stanford University
+      # year: 2012
   #   - course: MEng in Artificial Intelligence
   #     institution: Massachusetts Institute of Technology
   #     year: 2009

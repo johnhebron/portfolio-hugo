@@ -13,15 +13,18 @@ main:
   - name: DEI/Volunteering
     url: '#dei'
     weight: 30
-  - name: Articles
-    url: '#articles'
-    weight: 40
+  - name: Writing
+    url: '#writing'
+    weight: 50
   - name: eCommerce
     url: '#ecommerce'
-    weight: 50
+    weight: 40
+  - name: Media
+    url: '#media'
+    weight: 60
   - name: Contact
     url: '#contact'
-    weight: 60
+    weight: 70
 
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.

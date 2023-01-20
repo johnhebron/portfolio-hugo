@@ -127,7 +127,9 @@ sections:
           <br><br>
           As part of their week at BigCommerce learning about all things from ecommerce to being a leader in tech, I was invited to speak about BigCommerce and BigCommerce Engineering (as I was a 9 year veteran at this point) as well as my background as an entrepreneur and creator.
           <br><br>
-          Speaking to the TechWomen teams is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women do. I am honored that my company chooses to support them!"
+          Speaking to the TechWomen teams is one of the most amazing opportunities I have ever had and I am always so humbled and overwhelmed by the amazing work that these women do. I am honored that my company chooses to support them!
+          <br><br>
+          To read more about the TechWomen visits to BigCommerce, check out this blog post: <a href='https://www.bigeng.io/2022-techwomen/' target='new'>https://www.bigeng.io/2022-techwomen/</a>"
           organization: TechWomen
           organization_url: https://www.techwomen.org/
           title: Guest Speaker
@@ -139,9 +141,11 @@ sections:
           <br><br>
           Within BigCommerce, I would market the toy drive, facilitate communication between BigCommerce and PfC, and solicit and collect monetary donations. This would all culminate in our yearly shopping trip and toy drop off where employees would 'take over' local stores purchasing thousands of dollars of toys for donations and then would bring in those toys (along with the toys that colleagues had purchased separately) to load up our U-Haul and deliver to the *amazing* PfC warehouse! 
           <br><br>
-          Each year we would 'sponsor' between 100-500 children with our largest year garnering over $10,000 in donations!"
+          Each year we would sponsor between 100-500 children with our largest year garnering over $10,000 in donations!
+          <br><br>
+          <br><br>Check out this article from BuiltInAustin where I was able to share about BigCommerce's volunteer work: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019"
           organization: Partnerships for Children
-          organization_url: https://www.datacamp.com
+          organization_url: https://partnershipsforchildren.org/holiday-wishes/
           title: 'Toy Drive Organizer and Fundraiser'
           url: ''
         - certificate_url: 
@@ -149,7 +153,9 @@ sections:
           date_start: '2017-06-01'
           description: "In support of the 2017 and 2018 *Hackout*, Austin's first and only LGBTQIA+ entrepreneurship weekend, I secured corporate sponsorship from BigCommerce to support the event, encouraged participation resulting in multiple BigCommerce employee teams, and was lucky enough to participate in the weekend events as a member of my own team.
           <br><br>
-          As an overlap between LGBTQIA+ and entrepreneurship, Hackout holds a special place in my heart. If you look closely, you can still see a number of past BigCommerce employees featured on the Hackout website and videos!"
+          As an overlap between LGBTQIA+ and entrepreneurship, Hackout holds a special place in my heart. If you look closely, you can still see a number of past BigCommerce employees featured on the Hackout website and videos!
+          <br><br>
+          To see an overview of HackOut with a special intro by *yours truly*, check out this video: <a href='https://www.youtube.com/watch?v=RrZzOmH-sTw'>https://www.youtube.com/watch?v=RrZzOmH-sTw</a>"
           organization: Startout
           organization_url: https://swhackout.org
           title: 'Corporate Sponsorship/Participant'
@@ -163,7 +169,7 @@ sections:
           <br><br>
           I was lucky enough to be able to spend the week assisting the team with ecommerce/business guidance from my time running multiple online businesses, as well as design and coding advice for their project website.
           <br><br>
-          To find out more about their visit, check out this blog post: https://www.bigeng.io/opening-the-door-for-future-women-leaders/"
+          To find out more about their visit, check out this blog post: <a href='https://www.bigeng.io/opening-the-door-for-future-women-leaders/' target='new'>https://www.bigeng.io/opening-the-door-for-future-women-leaders/</a>"
           organization: Ann Richards School for Young Women Leaders
           organization_url: https://www.annrichardsschool.org/
           title: 'Mentor'
@@ -175,9 +181,10 @@ sections:
           <br><br>
           Each Q1 from 2015-2019 (5 years!) I would support the THH Chili Cookoff by forming multiple BigCommerce sponsored cooking teams, securing BigCommerce sponsored participant tickets for employees, and negotiating financial sponsorship opportunities to allow BigCommerce to financially support the work of THH.
           <br><br>
-          I'm proud to say that we adopted both of our beautiful pups from the amazing THH family, as well!"
+          I'm proud to say that we adopted both of our beautiful pups from the amazing THH family, as well!
+          <br><br>Check out this article from BuiltInAustin where I was able to share about BigCommerce's volunteer work: https://www.builtinaustin.com/2018/12/12/austin-tech-gives-back-2019"
           organization: Texas Humane Heroes
-          organization_url: https://www.annrichardsschool.org/
+          organization_url: https://humaneheroes.org/
           title: 'Corporate Sponsorship/Chili Cookoff Participant'
           url: ''
     design:
@@ -217,17 +224,6 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  - block: collection
-    id: articles
-    content:
-      title: Articles
-      filters:
-        folders:
-          - publication
-        featured_only: true
-    design:
-      columns: '2'
-      view: card
   - block: portfolio
     id: ecommerce
     content:
@@ -255,6 +251,29 @@ sections:
       view: showcase
       # For Showcase view, flip alternate rows?
       flip_alt_rows: false
+  - block: collection
+    id: writing
+    content:
+      title: Writing
+      filters:
+        folders:
+          - publication
+        featured_only: true
+    design:
+      columns: '2'
+      view: card
+  - block: collection
+    id: media
+    content:
+      title: In the Media
+      filters:
+        folders:
+          - media
+        featured_only: true
+    design:
+      columns: '2'
+      view: compact
+  
   # - block: collection
   #   content:
   #     title: Recent Publications
