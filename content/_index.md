@@ -28,6 +28,17 @@ sections:
           description: NodeJS, React
           icon: square-js
           icon_pack: fab
+  - block: markdown
+    content:
+      title: Skills and Technologies
+      subtitle: ''
+      text: |-2
+        * **Tools & Services:**
+          * Docker, MySQL/PostgreSQL, Redis/Resque, RabbitMQ/Protorabbit, Travis/CircleCI, GCS/AWS/Heroku, SOAP/REST, gRPC/Protobuf
+        * **Concepts:**
+          * Decomposing Rails monoliths, microservices, testing, CI/CD, upgrading Rails, building APIs, billing and provisioning concepts, technical documentation
+    design:
+      columns: '2'
   - block: experience
     content:
       title: Professional Experience
