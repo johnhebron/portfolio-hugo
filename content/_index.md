@@ -30,7 +30,7 @@ sections:
           icon_pack: fab
   - block: markdown
     content:
-      title: Skills and Technologies
+      title: Skills and Tech&shy;nologies
       subtitle: ''
       text: |-2
         * **Tools & Services:**
