@@ -20,6 +20,10 @@ sections:
           description: Ruby on Rails, Sinatra
           icon: gem
           icon_pack: far
+        - name: Golang
+          description:
+          icon: golang
+          icon_pack: fab
         - name: PHP
           description: Laravel
           icon: php
@@ -51,6 +55,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Senior Software Engineer, Enterprise Experience Team
+          company: Netlify
+          company_url: ''
+          company_logo: netlify-logo
+          location: Remote
+          date_start: '2023-04-01'
+          description: |2-
+              * Served as the first and only backend engineer in the new Enterprise Experience domain, supporting a team of 3 frontend engineers.
+              * Built out the new Enterprise Security Scorecard feature, converting the proof of concept and product requirements into an RFC, incorporating external feedback, and scaffolding the API within our Rails API monolith.
+              * Learned Go and built a Slack bot that allowed all employees to look up key customer data, create test accounts, and make automated system changes without having to have direct access to our Production environment.
+              * Helped expand onboarding documentation and technical documentation around the Netlify codebases to help others ramp quicker and more efficiently.
+              * Helped push for and drive DEI efforts where possible and actively participated in company culture channels and activities.
         - title: Software Engineer II, Billing Platform Team
           company: BigCommerce
           company_url: ''
