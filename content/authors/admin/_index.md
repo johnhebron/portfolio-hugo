@@ -71,7 +71,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/john_hebron_resume.pdf
+    link: uploads/John_Hebron_Resume_2023_09.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
