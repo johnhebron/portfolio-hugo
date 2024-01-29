@@ -335,23 +335,31 @@ sections:
     content:
       title: Contact
       subtitle:
-      text: 
+      text: I'd love to hear from you! Feel free to send me an email or to reach out via LinkedIn and I'll get back to you as quickly as I can.
       # Contact (add or remove contact options as necessary)
       # email: johnhebron@gmail.com
       # phone: 888 888 88 88
       # appointment_url: 'https://calendly.com'
-      # address:
+      address:
       #   street: 450 Serra Mall
-      #   city: Stanford
-      #   region: CA
-      #   postcode: '94305'
-      #   country: United States
+        city: Abbeville
+        region: LA
+        postcode: '71405'
+        country: United States
       #   country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
       # office_hours:
       #   - 'Monday 10:00 to 13:00'
       #   - 'Wednesday 09:00 to 10:00'
-      # contact_links:
+      contact_links:
+        - icon: envelope
+          icon_pack: fas
+          name: johnhebron@gmail.com
+          link: 'mailto:johnhebron@gmail.com'
+        - icon: linkedin
+          icon_pack: fab
+          name: LinkedIn
+          link: 'https://www.linkedin.com/in/johnhebron/'
       #   - icon: twitter
       #     icon_pack: fab
       #     name: DM Me
@@ -365,15 +373,15 @@ sections:
       #     name: Zoom Me
       #     link: 'https://zoom.com'
       # Automatically link email and phone or display as text?
-      autolink: true
+      autolink: false
       # Email form provider
-      form:
-        provider: netlify
-        formspree:
-          id:
-        netlify:
-          # Enable CAPTCHA challenge to reduce spam?
-          captcha: false
+      # form:
+      #   provider: netlify
+      #   formspree:
+      #     id:
+      #   netlify:
+      #     # Enable CAPTCHA challenge to reduce spam?
+      #     captcha: false
     design:
       columns: '2'
 ---
