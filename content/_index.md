@@ -61,6 +61,7 @@ sections:
           company_logo: netlify-logo
           location: Remote
           date_start: '2023-04-01'
+          date_end: '2023-10-31'
           description: |2-
               * Served as the first and only backend engineer in the new Enterprise Experience domain, supporting a team of 3 frontend engineers.
               * Built out the new Enterprise Security Scorecard feature, converting the proof of concept and product requirements into an RFC, incorporating external feedback, and scaffolding the API within our Rails API monolith.

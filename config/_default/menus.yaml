@@ -29,5 +29,5 @@ main:
 # Link to a PDF of your resume/CV from the menu.
 # To enable, copy your resume/CV to `static/uploads/resume.pdf` and uncomment the lines below.
   - name: Resume
-    url: uploads/John_Hebron_Resume_2023_09.pdf
+    url: uploads/Hebron_John_Resume_2024.pdf
     weight: 70

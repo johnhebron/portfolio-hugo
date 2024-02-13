@@ -71,7 +71,7 @@ social:
   # and uncomment the lines below.
   - icon: cv
     icon_pack: ai
-    link: uploads/John_Hebron_Resume_2023_09.pdf
+    link: uploads/Hebron_John_Resume_2024.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ''
@@ -80,5 +80,5 @@ email: ''
 highlight_name: true
 ---
 
-Hi, I’m John 👋 I am a Senior Software Engineer (5+ years) with a passion for building teams and services. I am hoping to find a smaller company (1-500) where I can make a real impact beyond just my day-to-day coding. I’m looking for an amazing team where I can be a “culture add”, not just a “culture fit”.
+Hi, I’m John 👋 I am a Senior Software Engineer (5+ years) with a passion for building teams and services. I am hoping to find a medium size company (~200+) where I can make a real impact beyond just my day-to-day coding. I’m looking for an amazing team where I can be a “culture add”, not just a “culture fit”.
 {style="text-align: justify;"}
