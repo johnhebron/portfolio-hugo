@@ -1,0 +1,8 @@
+{
+  "framework": "hugo",
+  "installCommand": "dnf install -y go",
+  "buildCommand": "hugo --gc --minify",
+  "env": {
+    "HUGO_VERSION": "0.128.0"
+  }
+}
