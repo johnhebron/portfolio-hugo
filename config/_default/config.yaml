@@ -6,6 +6,11 @@
 title: John Hebron # Website name
 baseURL: 'https://johnhebron.com/' # Website URL
 
+# Google Analytics (GA4). Wowchemy theme partials expect site.GoogleAnalytics; Hugo uses services.
+services:
+  googleAnalytics:
+    id: 'G-ZDCLKDQNZM'
+
 ############################
 ## LANGUAGE
 ############################
@@ -33,7 +38,8 @@ module:
 
 enableGitInfo: false
 summaryLength: 30
-paginate: 10
+pagination:
+  pagerSize: 10
 enableEmoji: true
 enableRobotsTXT: true
 footnotereturnlinkcontents: <sup>^</sup>

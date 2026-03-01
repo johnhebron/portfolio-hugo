@@ -1,0 +1,17 @@
+{{/* Override: Wowchemy theme expects context with .GoogleAnalytics; we read from config or params. */}}
+{{ $id := "" }}
+{{ with .Site }}
+  {{ with .Config.Services.GoogleAnalytics }}{{ $id = .ID }}{{ end }}
+  {{ if not $id }}{{ with .Params.marketing.analytics.google_analytics }}{{ $id = . }}{{ end }}{{ end }}
+{{ end }}
+{{ if not $id }}{{ with .Services.GoogleAnalytics }}{{ $id = .ID }}{{ end }}{{ end }}
+{{ if not $id }}{{ $id = .GoogleAnalytics }}{{ end }}
+{{ if $id }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ $id }}"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', '{{ $id }}');
+</script>
+{{ end }}

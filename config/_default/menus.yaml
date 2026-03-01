@@ -10,7 +10,7 @@ main:
   - name: Work Experience
     url: '#section-experience'
     weight: 20
-  - name: DEI/Volunteering
+  - name: Volunteering
     url: '#dei'
     weight: 30
   - name: Writing

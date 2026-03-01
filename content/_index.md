@@ -1,7 +1,7 @@
 ---
 # Leave the homepage title empty to use the site title
 title:
-date: 2023-01-19
+date: 2026-02-28
 type: landing
 
 sections:
@@ -38,9 +38,9 @@ sections:
       subtitle: ''
       text: |-2
         * **Tools & Services:**
-          * Docker, MySQL/PostgreSQL, Redis/Resque, RabbitMQ/Protorabbit, Travis/CircleCI, GCS/AWS/Heroku, SOAP/REST, gRPC/Protobuf
+          * Docker, MySQL/PostgreSQL, Redis/Resque, RabbitMQ/Protorabbit, Travis/CircleCI, GCP/AWS/Heroku, SOAP/REST/GraphQL APIs, gRPC/Protobuf, SSG/Vercel/Netlify, CursorAI/OpenAI/Anthropic/Ollama
         * **Concepts:**
-          * Decomposing Rails monoliths, microservices, testing, CI/CD, upgrading Rails, building APIs, billing and provisioning concepts, technical documentation
+          * Decomposing Rails monoliths, microservices, testing, CI/CD, upgrading Rails, building APIs, billing and provisioning concepts, technical documentation, data collection and analysis, implementing AI/machine learning to optimize worklfows
     design:
       columns: '2'
   - block: experience
@@ -55,6 +55,18 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Senior Software Engineer (Contractor)
+          company: OpsLevel
+          company_url: ''
+          company_logo: opslevel
+          location: Remote
+          date_start: '2024-09-01'
+          date_end: '2025-02-28'
+          description: |2-
+              * Short term contract position, responsible for owning the build-out of new 3rd-party Application Security integrations.
+              * Built three new integrations (SonarQube Server, SonarQube Cloud, and GitHub Advanced Security) which were directly responsible for multiple closed sales deals.
+              * Worked with customers, vendors, and cross departmentally to help define and execute on new features and enhancements.
+              * Onboarded new OpsLevel engineers to the ETL framework and integration development process.
         - title: Senior Software Engineer, Enterprise Experience Team
           company: Netlify
           company_url: ''
@@ -125,7 +137,7 @@ sections:
     id: dei
     content:
       # Note: `&shy;` is used to add a 'soft' hyphen in a long heading.
-      title: 'DEI & Volunteer Work'
+      title: 'Volunteer & Community Work'
       subtitle:
       # Date format: https://wowchemy.com/docs/customization/#date-format
       date_format: Jan 2006
@@ -137,18 +149,18 @@ sections:
       items:
         - date_end: '2021-12-31'
           date_start: '2018-07-01'
-          description: "BProud, BigCommerce's LGBTQ+ and Allies employee resource group, represents the aspirations and spirit of many more LGBTQ+ BigCommerce employees than I could possibly count. 
+          description: "BProud, BigCommerce's LGBTQ+ and Allies employee resource group, represents the aspirations and spirit of many more LGBTQ+ BigCommerce employees than I could possibly count.
           <br><br>
-          Being a Co-Founder and Co-Chair of BProud started long before we wrote and signed our official formation papers in 2018. From the day I started at BigCommerce, I felt a passion to build a community amongst our LGBTQ+ employees (of whom there seemed to be very few at first). Over the years, we tried to form a group numerous times but found that it was a lot more work than we anticipated and there were a lot fewer people willing to take on extra work. 
+          Being a Co-Founder and Co-Chair of BProud started long before we wrote and signed our official formation papers in 2018. From the day I started at BigCommerce, I felt a passion to build a community amongst our LGBTQ+ employees (of whom there seemed to be very few at first). Over the years, we tried to form a group numerous times but found that it was a lot more work than we anticipated and there were a lot fewer people willing to take on extra work.
           <br><br>
-          It wasn't until 2018 that a fellow LGBTQ employee came to me with a design for what he thought would be an amazing t-shirt for the group we wanted to form. Turns out, it was, and we were able to secure funding from the Support and Engineering organizations to have shirts printed for anyone who wanted one. Once we opened the lid and finally put ourselves out there we were overwhelmed with the number of people interested in getting a shirt and the level of support we started to receive. 
+          It wasn't until 2018 that a fellow LGBTQ employee came to me with a design for what he thought would be an amazing t-shirt for the group we wanted to form. Turns out, it was, and we were able to secure funding from the Support and Engineering organizations to have shirts printed for anyone who wanted one. Once we opened the lid and finally put ourselves out there we were overwhelmed with the number of people interested in getting a shirt and the level of support we started to receive.
           <br><br>
           After this amazing discovery, that so many people were out there who also wanted to support us, we finally had the steam to form and build our ERG! Over the years, BProud has provided social, educational, and inspirational events, talks, and more to BigCommerce employees about LGBTQ+ topics."
           organization: BProud @ BigCommerce
           organization_url: https://careers.bigcommerce.com/inside-bigcommerce/diversity-equity-inclusion/
           title: LGBTQ+ ERG Founder and Lead
           url: ''
-        - certificate_url: 
+        - certificate_url:
           date_end: '2022-08-01'
           date_start: '2022-03-01'
           description: "BigCommerce served as a host/sponsor for 5 awesome applicants in both the H1 2022 TechWomen and the H2 2022 TechWomen conferences.
@@ -161,13 +173,13 @@ sections:
           organization: TechWomen
           organization_url: https://www.techwomen.org/
           title: Guest Speaker
-          url: 
-        - certificate_url: 
+          url:
+        - certificate_url:
           date_end: '2019-12-31'
           date_start: '2014-10-01'
-          description: "Every holiday season from 2014 to 2019 (6 years!) I volunteered as lead of the BigCommerce Holiday Wishes Toy Drive in support of Partnerships for Children (PfC). 
+          description: "Every holiday season from 2014 to 2019 (6 years!) I volunteered as lead of the BigCommerce Holiday Wishes Toy Drive in support of Partnerships for Children (PfC).
           <br><br>
-          Within BigCommerce, I would market the toy drive, facilitate communication between BigCommerce and PfC, and solicit and collect monetary donations. This would all culminate in our yearly shopping trip and toy drop off where employees would 'take over' local stores purchasing thousands of dollars of toys for donations and then would bring in those toys (along with the toys that colleagues had purchased separately) to load up our U-Haul and deliver to the *amazing* PfC warehouse! 
+          Within BigCommerce, I would market the toy drive, facilitate communication between BigCommerce and PfC, and solicit and collect monetary donations. This would all culminate in our yearly shopping trip and toy drop off where employees would 'take over' local stores purchasing thousands of dollars of toys for donations and then would bring in those toys (along with the toys that colleagues had purchased separately) to load up our U-Haul and deliver to the *amazing* PfC warehouse!
           <br><br>
           Each year we would sponsor between 100-500 children with our largest year garnering over $10,000 in donations!
           <br><br>
@@ -176,7 +188,7 @@ sections:
           organization_url: https://partnershipsforchildren.org/holiday-wishes/
           title: 'Toy Drive Organizer and Fundraiser'
           url: ''
-        - certificate_url: 
+        - certificate_url:
           date_end: '2018-06-30'
           date_start: '2017-06-01'
           description: "In support of the 2017 and 2018 *Hackout*, Austin's first and only LGBTQIA+ entrepreneurship weekend, I secured corporate sponsorship from BigCommerce to support the event, encouraged participation resulting in multiple BigCommerce employee teams, and was lucky enough to participate in the weekend events as a member of my own team.
@@ -188,7 +200,7 @@ sections:
           organization_url: https://swhackout.org
           title: 'Corporate Sponsorship/Participant'
           url: ''
-        - certificate_url: 
+        - certificate_url:
           date_end: '2019-02-01'
           date_start: '2019-02-28'
           description: "I was invited to act as a mentor for the visiting students from the Anne Richards School for Future Women Leaders during their week long internship at BigCommerce.
@@ -202,7 +214,7 @@ sections:
           organization_url: https://www.annrichardsschool.org/
           title: 'Mentor'
           url: ''
-        - certificate_url: 
+        - certificate_url:
           date_end: '2019-03-31'
           date_start: '2015-02-01'
           description: "In support of the annual Texas Humane Heroes (THH) Chili Cookoff fundraiser, I would promote and organize participation and sponsorship of the fundraiser from BigCommerce.
@@ -301,7 +313,7 @@ sections:
     design:
       columns: '2'
       view: compact
-  
+
   # - block: collection
   #   content:
   #     title: Recent Publications
@@ -343,9 +355,9 @@ sections:
       # appointment_url: 'https://calendly.com'
       address:
       #   street: 450 Serra Mall
-        city: Abbeville
-        region: LA
-        postcode: '71405'
+        city: Cedar Park
+        region: TX
+        postcode: '78613'
         country: United States
       #   country_code: US
       # directions: Enter Building 1 and take the stairs to Office 200 on Floor 2
