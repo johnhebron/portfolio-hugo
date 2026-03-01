@@ -14,7 +14,7 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Software Engineer | Culture Enthusiast | DEI Champion
+role: Sr. Software Engineer | Product Manager | Culture Enthusiast
 
 # Organizations/Affiliations to show in About widget
 organizations:
@@ -22,7 +22,7 @@ organizations:
   #   url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Hi, I’m John 👋 I'm a Senior Software Engineer (5+ years) with a passion for building teams and services.
+bio: Hi, I’m John 👋 I'm a Senior Software Engineer (5+ years) and Product Manager (1 year) with a passion for building teams and services.
 
 # Interests to show in About widget
 interests:
@@ -79,6 +79,8 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
+Hi, I’m John. 👋 I’m a Senior Software Engineer (5+ years) and Junior Product Manager (1+ year) who loves building amazing services, solutions, and teams which solve real problems.
+{style="text-align: justify;"}
 
-Hi, I’m John 👋 I am a Senior Software Engineer (5+ years) with a passion for building teams and services. I am hoping to find a medium size company (~200+) where I can make a real impact beyond just my day-to-day coding. I’m looking for an amazing team where I can be a “culture add”, not just a “culture fit”.
+I’m looking for a company tackling interesting, meaningful challenges where I can make an impact beyond my day-to-day responsibilities. I’m especially excited to join a strong team where I can be a true “culture add,” not just a “culture fit.”
 {style="text-align: justify;"}

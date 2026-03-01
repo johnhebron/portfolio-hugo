@@ -55,6 +55,19 @@ sections:
       #   Leave `date_end` empty if it's your current employer.
       #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
       items:
+        - title: Product Manager / Product Owner
+          company: Something Borrowed Blooms
+          company_url: ''
+          company_logo: sbb-logo
+          location: Remote / Lafayette, LA
+          date_start: '2025-04-01'
+          date_end: ''
+          description: |2-
+              * Led full re-platforming of a custom, rental-based legacy e-commerce system to BigCommerce, owning strategy, roadmap, and execution across engineering, operations, and executive stakeholders.
+              * Negotiated vendor contracts and directed a 3-person development team, reducing projected $500K program cost by ~66%.
+              * Reduced hosting and support costs by $4K+ per month through infrastructure optimization and SaaS consolidation.
+              * Authored technical requirements, integration specifications, and training documentation; managed complex integrations across internal systems (WMS, payments, shipping, tax) and third-party SaaS tools.
+              * Drove cross-functional alignment from C-suite to operations, ensuring visibility, adoption, and on-time milestone delivery.
         - title: Senior Software Engineer (Contractor)
           company: OpsLevel
           company_url: ''
