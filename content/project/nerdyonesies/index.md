@@ -4,7 +4,7 @@
 title: "Nerdy Onesies (2018-2020)"
 summary: "I launched a much more successful iteration of the custom baby onesie business, Nerdy Onesies, focused on more niche designs around pop culture and technology.
 <br><br>
-At it's peak, Nerdy Onesies was able to pull in multiple thousands of dollars a month through only part time efforts, utilizing a BigCommerce storefront, Etsy, and Amazon (with and without Fulfillment by Amazon)."
+At it's peak, Nerdy Onesies was able to pull in >$5k a month across BigCommerce, Etsy, and Amazon (FBA + direct fulfillment) through only part time efforts. Owned product, marketing, fulfillment, and channel strategy end-to-end."
 authors: []
 tags: []
 categories: []

@@ -12,35 +12,46 @@ sections:
       username: admin
       # Override your bio text from `authors/admin/_index.md`?
       text:
-  - block: features
-    content:
-      title: Languages
-      items:
-        - name: Ruby
-          description: Ruby on Rails, Sinatra
-          icon: gem
-          icon_pack: far
-        - name: PHP
-          description: Laravel, WordPress
-          icon: php
-          icon_pack: fab
-        - name: Golang
-          description:
-          icon: golang
-          icon_pack: fab
-        - name: Javascript
-          description:
-          icon: square-js
-          icon_pack: fab
+  # - block: features
+  #   content:
+  #     title: Languages
+  #     items:
+  #       - name: Ruby
+  #         description: Ruby on Rails, Sinatra
+  #         icon: gem
+  #         icon_pack: far
+  #       - name: PHP
+  #         description: Laravel, WordPress
+  #         icon: php
+  #         icon_pack: fab
+  #       - name: Golang
+  #         description:
+  #         icon: golang
+  #         icon_pack: fab
+  #       - name: Javascript
+  #         description:
+  #         icon: square-js
+  #         icon_pack: fab
   - block: markdown
     content:
       title: Skills and Tech&shy;nologies
       subtitle: ''
       text: |-2
-        * **Tools & Services:**
-          * Docker, MySQL/PostgreSQL, Redis/Resque, RabbitMQ/Protorabbit, Travis/CircleCI, GCP/AWS/Heroku, SOAP/REST/GraphQL APIs, gRPC/Protobuf, SSG/Vercel/Netlify, CursorAI/OpenAI/Anthropic/Ollama
-        * **Concepts:**
-          * Decomposing Rails monoliths, microservices, testing, CI/CD, upgrading Rails, building APIs, billing and provisioning concepts, technical documentation, data collection and analysis, implementing AI/machine learning to optimize worklfows
+        * **Platform & Systems Strategy**
+          * Platform modernization (monolith → service-oriented architectures)
+          * API-first approach (REST, GraphQL, gRPC)
+          * Billing & provisioning systems
+          * Legacy system migrations
+          * Vendor & third-party integrations
+        * **Delivery & Operations**
+          * Cloud infrastructure (AWS, GCP) & containerization (Docker)
+          * Data modeling & relational databases (PostgreSQL, MySQL)
+          * Background processing & messaging systems
+          * Technical documentation & cross-functional specs
+        * **Data & AI Enablement**
+          * Data collection & analytics pipelines
+          * AI-assisted workflows (OpenAI, Anthropic, Gemini, Ollama)
+          * Internal tooling & automation strategy
     design:
       columns: '2'
   - block: experience
@@ -63,8 +74,8 @@ sections:
           date_start: '2025-04-01'
           date_end: ''
           description: |2-
-              * Led full re-platforming of a custom, rental-based legacy e-commerce system to BigCommerce, owning strategy, roadmap, and execution across engineering, operations, and executive stakeholders.
-              * Negotiated vendor contracts and directed a 3-person development team, reducing projected $500K program cost by ~66%.
+              * Led end-to-end re-platforming of a custom rental-based ecommerce system to BigCommerce, owning strategy, roadmap, and execution across engineering, operations, and executive stakeholders.
+              * Negotiated vendor contracts and directed a 3-person development team, reducing projected $500K program cost by 66% (~$330K savings).
               * Reduced hosting and support costs by $4K+ per month through infrastructure optimization and SaaS consolidation.
               * Authored technical requirements, integration specifications, and training documentation; managed complex integrations across internal systems (WMS, payments, shipping, tax) and third-party SaaS tools.
               * Drove cross-functional alignment from C-suite to operations, ensuring visibility, adoption, and on-time milestone delivery.
@@ -76,9 +87,8 @@ sections:
           date_start: '2024-09-01'
           date_end: '2025-02-28'
           description: |2-
-              * Short term contract position, responsible for owning the build-out of new 3rd-party Application Security integrations.
-              * Built three new integrations (SonarQube Server, SonarQube Cloud, and GitHub Advanced Security) which were directly responsible for multiple closed sales deals.
-              * Worked with customers, vendors, and cross departmentally to help define and execute on new features and enhancements.
+              * Owned definition and delivery of three new 3rd-party Application Security integrations (SonarQube Server, SonarQube Cloud, and GitHub Advanced Security) which were directly responsible for multiple closed sales deals.
+              * Partnered with customers, vendors, and cross-functional teams to define and deliver new features and enhancements.
               * Onboarded new OpsLevel engineers to the ETL framework and integration development process.
         - title: Senior Software Engineer, Enterprise Experience Team
           company: Netlify
@@ -88,7 +98,7 @@ sections:
           date_start: '2023-04-01'
           date_end: '2023-10-31'
           description: |2-
-              * Served as the first and only backend engineer in the new Enterprise Experience domain, supporting a team of 3 frontend engineers.
+              * Served as backend technical lead within the Enterprise Experience domain, partnering with product to translate requirements into RFCs and production API and supporting a team of 3 frontend engineers.
               * Built out the new Enterprise Security Scorecard feature, converting the proof of concept and product requirements into an RFC, incorporating external feedback, and scaffolding the API within our Rails API monolith.
               * Started learning Go and built a Slack bot that allowed all employees to look up key customer data, create test accounts, and make automated system changes without having to have direct access to our Production environment.
               * Helped expand onboarding documentation and technical documentation around the Netlify codebases to help others ramp quicker and more efficiently.
@@ -101,7 +111,7 @@ sections:
           date_start: '2020-03-01'
           date_end: '2022-12-31'
           description: |2-
-              * Led a team of 3 engineers through planning and execution of multiple new features to allow “private labeling” for resellers and enabled numerous +$1M partnerships
+              * Led a team of 3 engineers through roadmap planning and delivery of private-label reseller capabilities, enabling multiple $1M+ partnerships
               * Helped design and implement a new, rescoped v2 API, transitioning from REST to RPC, allowing the company to resell services with any frontend
               * Acted as Product Owner and worked cross-departmentally to ensure project success
               * Built dashboards to identify attacks and implemented middleware to stop or throttle tens of thousands of requests per minute at peak
@@ -146,6 +156,33 @@ sections:
           date_end: '2014-08-31'
     design:
       columns: '2'
+  - block: portfolio
+    id: ecommerce
+    content:
+      title: eCommerce Businesses
+      filters:
+        folders:
+          - project
+      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
+      # default_button_index: 0
+      # Filter toolbar (optional).
+      # Add or remove as many filters (`filter_button` instances) as you like.
+      # To show all items, set `tag` to "*".
+      # To filter by a specific tag, set `tag` to an existing tag name.
+      # To remove the toolbar, delete the entire `filter_button` block.
+      # buttons:
+      #   - name: All
+      #     tag: '*'
+      #   - name: Deep Learning
+      #     tag: Deep Learning
+      #   - name: Other
+      #     tag: Demo
+    design:
+      # Choose how many columns the section has. Valid values: '1' or '2'.
+      columns: '1'
+      view: showcase
+      # For Showcase view, flip alternate rows?
+      flip_alt_rows: false
   - block: accomplishments
     id: dei
     content:
@@ -277,33 +314,6 @@ sections:
   #       {{< gallery album="demo" >}}
   #   design:
   #     columns: '1'
-  - block: portfolio
-    id: ecommerce
-    content:
-      title: eCommerce Businesses
-      filters:
-        folders:
-          - project
-      # Default filter index (e.g. 0 corresponds to the first `filter_button` instance below).
-      # default_button_index: 0
-      # Filter toolbar (optional).
-      # Add or remove as many filters (`filter_button` instances) as you like.
-      # To show all items, set `tag` to "*".
-      # To filter by a specific tag, set `tag` to an existing tag name.
-      # To remove the toolbar, delete the entire `filter_button` block.
-      # buttons:
-      #   - name: All
-      #     tag: '*'
-      #   - name: Deep Learning
-      #     tag: Deep Learning
-      #   - name: Other
-      #     tag: Demo
-    design:
-      # Choose how many columns the section has. Valid values: '1' or '2'.
-      columns: '1'
-      view: showcase
-      # For Showcase view, flip alternate rows?
-      flip_alt_rows: false
   - block: collection
     id: writing
     content:

@@ -14,11 +14,11 @@ status:
 superuser: true
 
 # Role/position/tagline
-role: Sr. Software Engineer | Product Manager | Culture Enthusiast
+role: Technical Product Manager
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Formerly @ BigCommerce (10 years) | LSU Alum
+  - name: Former Sr. Software Engineer
   #   url: https://www.stanford.edu/
 
 # Short bio (displayed in user profile at end of posts)
@@ -79,8 +79,9 @@ email: ''
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
-Hi, I’m John. 👋 I’m a Senior Software Engineer (5+ years) and Junior Product Manager (1+ year) who loves building amazing services, solutions, and teams which solve real problems.
+Hi, I’m John 👋 I’m a Technical Product Manager with a background in backend engineering, specializing in platform modernization, e-commerce systems, and complex vendor ecosystems.
 {style="text-align: justify;"}
-
-I’m looking for a company tackling interesting, meaningful challenges where I can make an impact beyond my day-to-day responsibilities. I’m especially excited to join a strong team where I can be a true “culture add,” not just a “culture fit.”
+I lead complex cross-functional initiatives — from vendor selection and contract negotiation to roadmap execution — aligning engineering, operations, and executive stakeholders around measurable outcomes.
+{style="text-align: justify;"}
+I’m drawn to meaningful problems and strong teams. I look forward to finding a team where I can be a culture add, not just a culture fit.
 {style="text-align: justify;"}
