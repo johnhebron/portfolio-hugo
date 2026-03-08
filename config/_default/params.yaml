@@ -20,7 +20,7 @@ marketing:
     org_name: ''
     description: 'Hi, my name is John 👋 I am a Technical Product Manager specializing in platform modernization, vendor strategy, and e-commerce systems.'
   analytics:
-    google_analytics: 'G-ZDCLKDQNZM'
+    google_analytics: ''
     google_tag_manager: 'GTM-TMP933T7'
     baidu_tongji: ''
   verification:
