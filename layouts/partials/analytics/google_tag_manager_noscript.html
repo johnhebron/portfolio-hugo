@@ -1,0 +1,5 @@
+{{ $gt := site.Params.marketing.analytics.google_tag_manager | default "" }}
+{{ if hugo.IsProduction | and $gt }}
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id={{ $gt }}"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+{{ end }}
